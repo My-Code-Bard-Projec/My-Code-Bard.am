@@ -1,0 +1,157 @@
+*{margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  box-decoration-break: unset;}
+  
+  
+  
+  :root {
+  --blue: #007bff;
+  --indigo: #6610f2;
+  --purple: #6f42c1;
+  --pink: #e83e8c;
+  --red: #dc3545;
+  --orange: #fd7e14;
+  --yellow: #ffc107;
+  --green: #28a745;
+  --teal: #20c997;
+  --cyan: #17a2b8;
+  --white: #fff;
+  --gray: #6c757d;
+  --gray-dark: #343a40;
+  --primary: #007bff;
+  --secondary: #6c757d;
+  --success: #28a745;
+  --info: #17a2b8;
+  --warning: #ffc107;
+  --danger: #dc3545;
+  --light: #f8f9fa;
+  --dark: #343a40;
+  --breakpoint-xs: 0;
+  --breakpoint-sm: 576px;
+  --breakpoint-md: 768px;
+  --breakpoint-lg: 992px;
+  --breakpoint-xl: 1200px;
+  --font-family-sans-serif: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  --font-family-monospace: SFMono-Regular, Menlo, Monaco, Consolas, "Liberation Mono", "Courier New", monospace;
+}
+
+body {
+  margin: 0;
+  font-family: Tahoma, sans-serif;
+}
+
+.intro {
+  max-height: 75.3486vh;
+  overflow: hidden;
+  position: relative;
+  background: url("cover.jpg") center no-repeat;
+  background-size: cover;
+  border-bottom-right-radius: 45.97484453748955487945454%;
+}
+
+.intro:after {
+  content: "";
+  display: block;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(26, 19, 19, 0.7);
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 2;
+}
+
+.intro__content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: 3;
+}
+
+.intro__title {
+  margin: 0;
+  font-size: 45px;
+  color: #fff;
+  text-align: center;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  height: 400px;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.video {
+  position: relative;
+  z-index: 1;
+  padding-bottom: 56.25%;
+}
+
+.video__media {
+  width: 100%;
+  height: auto;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+ 
+
+ 
+.vidz, .ifa, .ifas 
+{  text-decoration: none;
+  z-index: 1;
+  color: wheat;
+  font-size: 5.41vmin;
+   
+  
+}
+  @keyframes sol {
+    
+  0%{ color: #14b5ce;}
+  10%{ color: #04982e;}
+  20%{ color:red;}
+  30%{color: #08b76e;}
+  40%{ color: #355070; }
+  50%{ color: #a8e8f9;}
+  60%{ color: #EAAC8B;}
+  70%{color: #00537A;}
+  80%{ color: #04982e;}
+  90%{ color: var(--red);}
+  100%{color: blue;} 
+  }
+
+  .block
+  {padding-top: 27px;
+    display: flex;
+    justify-content: center;
+    row-gap: 8px;
+  width: 100%;
+  background:url(../img/sa.jpg);
+    column-gap: 8px;
+    background-position: center;
+
+
+    flex-wrap: wrap;
+ }
+  
+
+
+ .ifa:hover,
+ .ifas:hover  {
+
+text-decoration: none;
+animation:  3s sol infinite  ;
+
+
+ }
